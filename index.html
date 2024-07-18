@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>번역 전문가 포트폴리오</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .section:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+        .profile-card {
+            display: inline-block;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #0044cc;
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #003399;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>번역 전문가 포트폴리오</h1>
+            <nav>
+                <a href="#services">번역 서비스</a>
+                <a href="#projects">프로젝트</a>
+                <a href="#team">팀 소개</a>
+                <a href="#contact">문의</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>소개</h2>
+        <p>안녕하세요, 저는 일본어 번역 전문가입니다. 저희 팀은 영어, 중국어 번역도 함께 제공합니다.</p>
+    </section>
+
+    <section class="section" id="services">
+        <h2>번역 서비스</h2>
+        <p>저희는 다양한 언어의 번역 서비스를 제공합니다. 일본어, 영어, 중국어 등 다양한 언어의 전문 번역가들이 함께 일합니다.</p>
+    </section>
+
+    <section class="section" id="projects">
+        <h2>프로젝트</h2>
+        <p>저희가 진행했던 주요 프로젝트들은 다음과 같습니다.</p>
+    </section>
+
+    <section class="section" id="team">
+        <h2>팀 소개</h2>
+        <div class="profile-card">
+            <h3>일본어 번역가 1</h3>
+            <p>이력 및 약력</p>
+        </div>
+        <div class="profile-card">
+            <h3>일본어 번역가 2</h3>
+            <p>이력 및 약력</p>
+        </div>
+        <div class="profile-card">
+            <h3>일본어 번역가 3</h3>
+            <p>이력 및 약력</p>
+        </div>
+        <div class="profile-card">
+            <h3>영어 번역가 1</h3>
+            <p>이력 및 약력</p>
+        </div>
+        <div class="profile-card">
+            <h3>영어 번역가 2</h3>
+            <p>이력 및 약력</p>
+        </div>
+        <div class="profile-card">
+            <h3>영어 번역가 3</h3>
+            <p>이력 및 약력</p>
+        </div>
+        <div class="profile-card">
+            <h3>중국어 번역가 1</h3>
+            <p>이력 및 약력</p>
+        </div>
+        <div class="profile-card">
+            <h3>중국어 번역가 2</h3>
+            <p>이력 및 약력</p>
+        </div>
+        <div class="profile-card">
+            <h3>중국어 번역가 3</h3>
+            <p>이력 및 약력</p>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>문의</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="이름" required>
+            <input type="email" name="email" placeholder="이메일" required>
+            <textarea name="message" placeholder="문의사항" rows="5" required></textarea>
+            <button type="submit">보내기</button>
+        </form>
+    </section>
+</body>
+</html>
